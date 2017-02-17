@@ -1,0 +1,19 @@
+url: http://SACEMA.github.io
+markdown: kramdown
+highlighter: rouge
+collections:
+  people:
+    output: true
+    permalink: /people/:name/
+defaults:
+  -
+    scope:
+      path: "projects"
+    values:
+      layout: "project.page"
+exclude:
+  - redirect.html
+  - README.md
+  - run.sh
+gems:
+  - jemoji
