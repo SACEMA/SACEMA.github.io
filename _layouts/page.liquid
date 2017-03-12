@@ -7,14 +7,12 @@
      {%include navbar.html%}
      {%include header.html%}
      {% if page.alertmsg contains "" %}
+     <div class="container" align="left">
         <div class="alert alert-{{page.alerttype}} alert-dismissible" role="alert">
-          							<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          <div class="container padding-left=0px padding-right=0px">
-          <p margin="0px">
+          	<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             {{ page.alertmsg }}
-          </p>
-        </div>
       </div>
+    </div>
      {%endif%}
      <!-- PAGE CONTENT -->
  		<div class="page-content">
@@ -32,5 +30,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{site.url}}/bootstrap/js/bootstrap.min.js"></script>
     <script src="{{site.url}}/bootstrap/js/bootstrap.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
