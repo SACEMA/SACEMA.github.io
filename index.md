@@ -1,6 +1,6 @@
 ---
 layout: redirect
-redirect: http://github.sacema.org/measlesOutbreak
+redirect: http://www.sacema.com
 title: How to be a scientist
 summary: A professional development series for SACEMA's junior researchers
 alerttype: primary
