@@ -1,7 +1,9 @@
 ---
 layout: page
 redirect: http://www.sacema.com
-alerttype: danger
+title: This site is currently down.
+summary: We apologize for any inconvenience.
+alerttype: primary
 alertmsg: >
-  This site is currently down. We apologize for any inconvenience. Please try again soon.
+  Please try again soon.
 ---
