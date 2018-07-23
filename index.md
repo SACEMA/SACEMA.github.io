@@ -1,9 +1,7 @@
 ---
-layout: redirect
+layout: page
 redirect: http://www.sacema.com
-title: How to be a scientist
-summary: A professional development series for SACEMA's junior researchers
-alerttype: primary
+alerttype: danger
 alertmsg: >
-  This page is in development. Please come back soon.
+  This site is currently down. We apologize for any inconvenience. Please try again soon.
 ---
