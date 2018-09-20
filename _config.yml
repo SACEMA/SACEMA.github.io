@@ -15,5 +15,5 @@ exclude:
   - redirect.html
   - README.md
   - run.sh
-gems:
+plugins:
   - jemoji
