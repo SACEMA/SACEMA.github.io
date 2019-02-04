@@ -1,7 +1,7 @@
 ---
 layout: page
 redirect: https://docs.google.com/spreadsheets/d/1XHTZ0537xlsjvlqUGmeO-x6TvVdw-KCCc4NbK5jxx80/edit?usp=sharing
-year: 2018
+year: 2019
 title: Being a scientist
 summary: A professional development series for SACEMA's junior researchers
 ---
